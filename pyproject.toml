@@ -1,0 +1,31 @@
+[tool.poetry]
+authors = ["azriel1rf"]
+description = "OpenAI Gym environment for Poker including No Limit Hold'em(NLHE) and Pot Limit Omaha(PLO)"
+name = "poker-gym"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+gym = "^0.23.1"
+numpy = "^1.22.3"
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+coverage = "^6.3.2"
+darglint = "^1.8.1"
+flake8 = "^4.0.1"
+mypy = "^0.941"
+pre-commit = "^2.17.0"
+pydocstyle = "^6.1.1"
+pylint = "^2.12.2"
+pytest = "^7.1.0"
+pytest-cov = "^3.0.0"
+reorder-python-imports = "^3.0.1"
+types-all = "^1.0.0"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
+
+[tool.mypy]
+exclude = "venv"
