@@ -1,6 +1,6 @@
 """Module for the environments."""
 from __future__ import annotations
 
-from .env import PokerEnv
+from . import poker_env
 
-__all__ = ["PokerEnv"]
+__all__ = ["poker_env"]
