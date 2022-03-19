@@ -7,8 +7,10 @@ version = "0.1.0"
 [tool.poetry.dependencies]
 gym = "^0.23.1"
 numpy = "^1.21.5"
-python = ">=3.7,<3.10"
+python = ">=3.8,<3.10"
 ray = {version = "^1.11.0", optional = true}
+PettingZoo = "^1.17.0"
+phevaluator = "^0.5.0"
 
 [tool.poetry.dev-dependencies]
 black = "^22.1.0"
@@ -23,6 +25,7 @@ pytest = "^7.1.1"
 pytest-cov = "^3.0.0"
 reorder-python-imports = "^3.0.1"
 types-all = "^1.0.0"
+ipython = "^8.1.1"
 
 [tool.poetry.extras]
 rllib = ["ray"]
