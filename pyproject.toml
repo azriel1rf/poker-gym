@@ -2,7 +2,7 @@
 authors = ["azriel1rf"]
 description = "OpenAI Gym environment for Poker including No Limit Hold'em(NLHE) and Pot Limit Omaha(PLO)"
 name = "poker-gym"
-version = "0.1.0"
+version = "0.1.0.1"
 
 [tool.poetry.dependencies]
 PettingZoo = "^1.17.0"
